@@ -1,0 +1,21 @@
+Classes in python 
+is a way to create new objects .It defines a set of attributes that are shared across instances of that class .Classes are sets of functions, variables, and properties
+The functions defined inside a class are called instance methods
+They apply some operations to the class instance by passing an
+instance of that class as the first argument. This argument is called self by convention, but
+it can be any legal identifier. example in the .py file:
+
+Class variables, such as numEmployee, share values among all the instances of the class. In
+this example, numEmployee is used to count the number of employee instances. Note that
+the Employee class implements the __init__ and __del__ special methods, which we
+will discuss in the next section.
+
+We can create instances of the Employee objects, run methods, and return class and
+instance variables by doing the following:
+[ line 22 ]
+
+
+Special methods
+n/b- The only special method we actually call in our programs, as
+common practice, is the __init__ method, to invoke the initializer of the superclass in our
+own class definitions
