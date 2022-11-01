@@ -1,0 +1,6 @@
+verything defined in a base class is accessible from a derived class.
+This may cause problems when we are building object-oriented applications where we may want to hide the internal implementation of an object. This can lead to namespace conflicts between objects defined in derived classes with the base class. To prevent this, the methods we define private attributes with have a double underscore, such as __privateMethod().
+These method names are automatically changed to _Classname__privateMethod() to prevent name conflicts with methods defined in base classes.
+It is recommended to use private attributes when using a class property to define mutable attributes.
+A property is a kind of attribute that rather than returning a stored value,
+computes its value when called
