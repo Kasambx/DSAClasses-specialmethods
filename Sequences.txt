@@ -1,0 +1,19 @@
+Sequences
+Sequences are ordered sets of objects indexed by non-negative integers. Lists and tuples are sequences of arbitrary objects, strings are sequences of characters. String, tuple, and range objects are immutable.
+
+All have the following methods 
+len(s)- Number of elements in s
+min(s, [,default=obj,key=func]) - The minimum value in s (alphabetically for strings)
+max(s, [,default=obj,key=func]) - Maximum value in s (alphabetically for strings)
+sum(s,[,start=0]) -The sum of the elements (returns TypeError if s is not numeric)
+all(s) - Returns True if all elements in s are True (that is,not 0, False, or Null)
+any(s) - Checks whether any item in s is True
+
+They also have the following operation
+s + r = Concatenates two sequences of the same type
+s * n = Make n copies of s, where n is an integer
+v1, v2 ..., vn = s - Unpacks n variables from s to v1, v2, and so on
+s[i] - Indexing-returns element i of s
+s[i:j:stride]  - Slicing returns elements between i and j with optional stride
+x in s - Returns True if element x is in s
+x not in s -Returns true if element x is not in s
