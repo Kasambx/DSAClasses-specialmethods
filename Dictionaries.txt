@@ -1,0 +1,14 @@
+           Dictionaries
+len(d)- No of items in D
+d.clear() - removes all items from d
+d.copy() - makes a shallow copy of d 
+d.fromkeys(s[,default]) - Returns a new dictionary with keys from sequence s and values set to value.
+d.get(k [,v]) - Returns d[k] if found, or else returns v, or None if v is not given.
+d.items() - Returns a sequence of key:value pairs in d.
+d.keys() - Returns a sequence of keys in d.
+d.pop(k [,default]) -Returns d[k] and removes it from d. If d[k] is not found, it returns default or raises KeyError.
+d.popitem() - Removes a random key:value pair from d and returns it as a tuple.
+d.setdefault(k [,v]) -Returns d[k]. If d[k] is not found, it returns v and sets d[k] to v.
+d.update(b) -Adds all objects from b to d.
+d.values() - Returns a sequence of values in d.
+
