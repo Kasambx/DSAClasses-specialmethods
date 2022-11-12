@@ -1,0 +1,4 @@
+Chainmaps-collections- ADT  
+provides a way to link a number of dictionaries/other mappings so they can be treated as one object 
+they are ordered lists of dictionaries 
+Advantage of using a chainmap rather than a dictionary is that the previosly set values are retained.  
