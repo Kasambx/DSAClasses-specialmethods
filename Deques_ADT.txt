@@ -1,0 +1,3 @@
+Deques 
+or double ended queues are list-like objects that upport thread-safe, memory-efficient appends.They are mutable and support some of the operations on lists e,g indexing, 
+The major advantage of deques over lists is that inserting items at the begining of a deque is much faster than at the begining if a list although inserting at the end is slower than in lists. 
