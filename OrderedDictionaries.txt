@@ -1,0 +1,4 @@
+Ordered Dict 
+DIfference between these and normal dict is that the insertion order remains the same unlike in dict
+Similarly, when we add values from a list using update, the OrderedDict will retain the same order as the list.
+The OrderedDict is often used in conjunction with the sorted method to create a sorted dictionary.
