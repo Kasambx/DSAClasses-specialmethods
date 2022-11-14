@@ -1,0 +1,11 @@
+CounterObjects
+is a subclass of a dictionary where each dict key is hashable and associated with the einteger count of the object.
+
+we can create an empty container and populate it using update method eg
+counter('anysequence')
+returns Counter({'e': 3, 'n': 2, 'a': 1, 'y': 1, 's': 1, 'q': 1, 'u': 1, 'c': 1})
+
+
+The most notable difference btwn counter objects and dicts is that counter objects return zero counts dicts retun key error.
+
+we can creae an iterator out of a counter objects by using its elements() method this returns an iterator that counts below one are not included and the order is not guaranteed. Thoughh you can use sorted().
