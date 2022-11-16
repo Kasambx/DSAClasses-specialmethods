@@ -1,0 +1,1 @@
+retruns a tuple like object that has field accessibe with named indexes as well as integer indexes of a normal tuple this allows a more self documenting and readable code .Named tule inherits methods from tuple and it is backward-compatible with tuple 
