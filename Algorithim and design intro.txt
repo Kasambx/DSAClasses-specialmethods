@@ -1,0 +1,21 @@
+Principle of ALgorithim Design 
+Reasons to study algorithims 
+-They are essential for computer science and intelligent systems.
+-They are important in many other domains (computational biology, economics, ecology, communications, ecology, physics, and so on)
+-They play a role in technology innovation.
+-They improve problem solving and analytical thinking.
+
+Recursion can often achieve the same result as iteration, however, they are fundamentally different. A recursive function calls itself, applying the same function to progressively smaller inputs.The input of any recursive step is the output of the previous recursive step.
+
+--- ALgorithims are composed of 4 elements 
+-Sequential operations 
+-Actions based on the state of a data struscture
+-Iteration, repeating an action a number of times 
+-Recursion,calling itself on a subset of inputs 
+
+--- Algorithim design paridigms
+Divide and conquer- break down the problem solve it the merge it latter on
+Greedy algorithims -finding the best solution to a local problem in the hope taht it will lead to a global solution 
+Dynamic programming-uses recursion result of operations cached to be used in subsequent operations .Unlike divide and conquer dynamic allows us to compare results at different stages. This can have a perfomance advantage over divide and conquer because it is quicker to retrieve a previous calculation than recalculating it. 
+
+

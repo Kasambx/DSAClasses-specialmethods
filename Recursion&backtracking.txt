@@ -1,0 +1,17 @@
+Recursion&`backtracking
+Recursion is particularly useful for divide and conquer problems; however, it can be difficult to understand exactly what is happening, since each recursive call is itself spinning off other recursive calls. At the core of a recursive function are two types of cases: base cases, which tell the recursion when to terminate, and recursive cases that call the function they are in. A simple problem that naturally lends itself to a recursive solution is calculating factorials. The recursive factorial algorithm defines two cases: the base case when n is zero, and the recursive case when n is greater than zero.
+
+Difference recursion and backtracking
+ Recursion 
+ Terminates when a base case is reached
+ Each recursive call requires space in memory
+ An infinite recursion results in a stack overflow error
+Some problems are naturally better suited to recursive solutions
+
+Iteration
+Terminates when a defined condition is met
+Each iteration is not stored in memory
+An infinite iteration will run while the hardware is powered
+Iterative solutions may not always be obvious
+
+
