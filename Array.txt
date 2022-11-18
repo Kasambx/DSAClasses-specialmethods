@@ -1,0 +1,5 @@
+Array
+data structure that holds a fixeed number of items of the same type.
+concepts in arrays 
+Element- each item stored in an array
+index -location of each element in an array
